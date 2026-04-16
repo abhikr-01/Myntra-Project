@@ -1,84 +1,34 @@
-🛍️ Myntra Clone
+Myntra Clone
 A full-stack e-commerce fashion web app inspired by Myntra — browse products, add them to your bag, and see a real-time price breakdown before checkout.
-📌 Overview
+
+Overview:
+
 This project is a clone of the popular Indian fashion e-commerce platform Myntra. It features a React + Vite frontend with Redux for state management, and a Node.js + Express backend that serves product data via a REST API.
 Users can browse products on the Home page, add them to their Bag, and view a detailed price breakdown — all powered by a live backend.
-✨ Features
-🏠 Home Page — Fetches and displays products from the backend on load
-👜 Bag Page — Shows all items added to the bag
-➕ Add to Bag — Add any product from the Home page
-❌ Remove from Bag — Remove items from the Bag
-💰 Price Summary — Displays:
-Original Price (total MRP)
-Discount Applied
-Convenience Fee
-Final Payable Amount
-⏳ Loading Spinner — Shown while products are being fetched
-🔄 Redux State Management — Bag and fetch status managed via slices
-🖥️ Pages
-Page           File                          Description
-Home      routes/Home.jsx      Product listing — fetches items from backend
-Bag       routes/Bag.jsx       Selected items with live price summary
-🛠️ Tech Stack
-Frontend (Myntra-react-clone/)
-        Technology                               Purpose
-         React.js                               UI framework
-         Vite                                Build tool & dev server
-         Redux                               Global state management
-         HTML5 / CSS3                        Structure & styling
-         JavaScript                          Logic & interactivity
-Backend (backend/)
-       Technology                                 Purpose
-         Node.js                                  Runtime
-        Express.js                              REST API server
-        items.json                              Product data source
 
-📁 Project Structure
+Features.
+1. Home Page, fetches and displays products from the backend on load.
+2. Bag Page, Shows all items added to the bag.
+3. Add to Bag, Add any product from the Home page.
+4. Remove from Bag, Remove items from the Bag.
+5. Price Summary, Displays: Original Price (total MRP), Discount Applied, Convenience Fee, Final Payable Amount.
 
-Myntra-Project/
-│
-├── Myntra-react-clone/          # React Frontend
-│   ├── public/
-│   │   ├── images/
-│   │   ├── favicon.svg
-│   │   └── icons.svg
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── BagItem.jsx       # Individual bag item card
-│   │   │   ├── BagSummary.jsx    # Price breakdown component
-│   │   │   ├── FetchItems.jsx    # Fetches products from backend
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── HomeItem.jsx      # Individual product card
-│   │   │   └── LoadingSpinner.jsx
-│   │   ├── routes/
-│   │   │   ├── App.jsx           # Main app with routing
-│   │   │   ├── Home.jsx          # Home page
-│   │   │   └── Bag.jsx           # Bag page
-│   │   ├── store/
-│   │   │   ├── index.js          # Redux store setup
-│   │   │   ├── bagSlice.js       # Add/remove bag logic
-│   │   │   ├── itemsSlice.js     # Product items state
-│   │   │   └── fetchStatusSlice.js  # Loading state
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── vite.config.js
-│   └── package.json
-│
-├── backend/                      # Express Backend
-│   ├── data/
-│   │   └── items.js              # Product data module
-│   ├── scripts/
-│   │   ├── index.js
-│   │   └── bag.js
-│   ├── app.js                    # Express server entry point
-│   ├── items.json                # Product JSON data
-│   ├── bag.html / bag.css        # Static bag page
-│   ├── index.html / index.css    # Static home page
-│   └── package.json
-│
-└── README.md
+Loading Spinner is shown while products are being fetched. Redux State Management used in Bag, fetchs and status managed via slices.
+* Pages                       
+1. Home      routes/Home.jsx   for   Product listing — fetches items from backend
+2. Bag       routes/Bag.jsx  has     Selected items with live price summary
+
+🛠️ Tech Stack:
+* Frontend (Myntra-react-clone): 
+         React.js      for                         UI framework
+         Vite      for                          Build tool & dev server
+         Redux      for                         Global state management
+         HTML5 / CSS3     for                   Structure & styling
+         JavaScript        for                  Logic & interactivity
+* Backend (backend/): 
+         Node.js               for                   Runtime
+        Express.js             for                 REST API server
+        items.json            for                  Product data source
 
 🚀 Getting Started
 Prerequisites
@@ -99,6 +49,7 @@ cd Myntra-react-clone
 npm install
 npm run dev
 The React app will run at http://localhost:5173 (Vite default)
+
 🔗 How It Works
 1. When the Home page loads, FetchItems.jsx calls the Express backend API.
 2. The backend reads from items.json and returns product data.
