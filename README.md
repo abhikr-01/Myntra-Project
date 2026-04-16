@@ -60,4 +60,10 @@ The React app will run at http://localhost:5173 (Vite default)
 7. BagSummary.jsx calculates and displays the final price breakdown.
 
 *Screenshots:
-<img width="1355" height="629" alt="Screenshot 2026-04-16 124937" src="https://github.com/user-attachments/assets/b7213c90-23a9-4977-a6d6-f6052b0dc06e" />
+<img width="500" height="300" alt="Screenshot 2026-04-16 124937" src="https://github.com/user-attachments/assets/b7213c90-23a9-4977-a6d6-f6052b0dc06e" />
+<img width="500" height="300" alt="Screenshot 2026-04-16 default" src="https://github.com/user-attachments/assets/58c51054-7f5f-4f6d-ac72-23441e2f4496" />
+<img width="500" height="300" alt="Screenshot 2026-04-16 addtobag" src="https://github.com/user-attachments/assets/b8e6fd41-5ad0-4c5a-9433-44abcaac5e62" />
+<img width="500" height="300" alt="Screenshot 2026-04-16 bag" src="https://github.com/user-attachments/assets/664d6d87-2aff-4dc4-ac40-874b72b443e7" />
+
+
+
