@@ -59,3 +59,5 @@ The React app will run at http://localhost:5173 (Vite default)
 6. The Bag page reads from the Redux store and renders BagItem.jsx cards.
 7. BagSummary.jsx calculates and displays the final price breakdown.
 
+*Screenshots:
+<img width="1355" height="629" alt="Screenshot 2026-04-16 124937" src="https://github.com/user-attachments/assets/b7213c90-23a9-4977-a6d6-f6052b0dc06e" />
